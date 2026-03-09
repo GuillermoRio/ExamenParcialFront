@@ -6,6 +6,7 @@ export type Cocktail = {
     strAlcoholic: string
     strGlass: string,
     strInstructions: string,
+    strCategory: string,
     strDrinkThumb: string,
     strIngredient1?: string,
     strIngredient2?: string,

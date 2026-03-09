@@ -38,6 +38,7 @@ const Estarandom = () => {
                 <div>Name:{drink.drinks.at(0)?.strGlass}</div>
                 <div>Alcoholic:{drink.drinks.at(0)?.strAlcoholic} </div>
                 <div>Instructions:{drink.drinks.at(0)?.strInstructions} </div>
+                <div>category:{drink.drinks.at(0)?.strCategory}</div>
             </>
             )}
             {error && <h1>{error}</h1>}
